@@ -1,6 +1,7 @@
 ---
 title: Directory
 date: 2017-06-11 20:16:00 Z
+layout: page
 ---
 
 CO.LAB-------------------------1

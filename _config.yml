@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  floor-one:
+    title: floor_one
+    output: true
 defaults:
 - scope:
     path: ''

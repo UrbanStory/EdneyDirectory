@@ -5,3 +5,11 @@ floor-one: CO.Lab
 floor-two: TechTown
 ---
 
+1. CO.Lab
+
+2. TechTown
+
+4. Bluewave Political Partners
+   Tonya Craft Legal
+   MediTract
+5. The Enterprise Center

@@ -2,14 +2,14 @@
 title: Edney Directory
 timezone: UTC
 collections:
+  floor-one:
+    title: Floor One
+    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
-    output: true
-  floor-one:
-    title: floor one
     output: true
   floor-two:
     title: floor_two

@@ -11,6 +11,9 @@ collections:
   floor-one:
     title: floor_one
     output: true
+  floor-two:
+    title: floor_two
+    output: true
 defaults:
 - scope:
     path: ''

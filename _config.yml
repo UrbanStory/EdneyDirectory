@@ -11,6 +11,9 @@ collections:
   floor-one:
     title: Floor One
     output: true
+  floor-six:
+    title: Floor Six
+    output: true
   floor-three:
     title: Floor Three
     output: true

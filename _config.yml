@@ -2,6 +2,9 @@
 title: Edney Directory
 timezone: UTC
 collections:
+  floor-five:
+    title: Floor Five
+    output: true
   floor-four:
     title: Floor Four
     output: true
@@ -19,9 +22,6 @@ collections:
     output: true
   uploads:
     title: Uploads
-    output: true
-  floor-five:
-    title: floor-five
     output: true
 defaults:
 - scope:

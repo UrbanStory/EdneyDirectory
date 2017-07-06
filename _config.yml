@@ -35,7 +35,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-=======
     title: Page
     suite_number:
     output: false

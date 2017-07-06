@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   floor-one:
     title: Floor One
-    output: true
+    output: false
   uploads:
     title: Page
     output: false

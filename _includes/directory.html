@@ -1,28 +1,102 @@
 <div class="container">
+
+  <!--FIRST FLOOR STARTS HERE -->
   <div class="row">
-    <ul class="floor-one">
-      <li>{{ page.floor.floor-one }}<li>
-    </ul>
-    <ul class="floor-two">
-      <li>{{ page.floor.floor-two }}<li>
-    </ul>
-    <ul class="floor-four">
-      <li>{{ page.floor.floor-four }}<li>
-    </ul>
-    <ul class="floor-five">
-      <li>{{ page.floor.floor-five }}<li>
-    </ul>
-    <ul class="floor-six">
-      <li>{{ page.floor.floor-six }}<li>
-    </ul>
-    <ul class="floor-seven">
-      <li>{{ page.floor.floor-seven }}<li>
-    </ul>
-    <ul class="floor-eight">
-      <li>{{ page.floor.floor-eight }}<li>
-    </ul>
-    <ul class="floor-nine">
-      <li>{{ page.floor.floor-nine }}<li>
-    </ul>
+    <h3>Floor One</h3>
+    {% for floor-one in site.floor-one %}
+      <ul class="floor-one">
+        <li class="title">{{ floor-one.title }}</li>
+        <li class="suite_number">{{ floor-one.suite_number }}</li>
+      </ul>
+    {% endfor %}
   </div>
+
+  <!--SECOND FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Two</h3>
+    {% for floor-two in site.floor-two %}
+      <ul class="floor-two">
+        <li class="title">{{ floor-two.title }}</li>
+        <li class="suite_number">{{ floor-two.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--THIRD FLOOR STARTS HERE
+  <div class="row">
+    <h3>Floor Three</h3>
+    {% for floor-three in site.floor-three %}
+      <ul class="floor-three">
+        <li class="title">{{ floor-three.title }}</li>
+        <li class="suite_number">{{ floor-three.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>  -->
+
+  <!--FOURTH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Four</h3>
+    {% for floor-four in site.floor-four %}
+      <ul class="floor-four">
+        <li class="title">{{ floor-four.title }}</li>
+        <li class="suite_number">{{ floor-four.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--FIFTH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Five</h3>
+    {% for floor-five in site.floor-five %}
+      <ul class="floor-five">
+        <li class="title">{{ floor-five.title }}</li>
+        <li class="suite_number">{{ floor-five.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--SIXTH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Six</h3>
+    {% for floor-six in site.floor-six %}
+      <ul class="floor-six">
+        <li class="title">{{ floor-six.title }}</li>
+        <li class="suite_number">{{ floor-six.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--SEVENTH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Seven</h3>
+    {% for floor-seven in site.floor-seven %}
+      <ul class="floor-seven">
+        <li class="title">{{ floor-seven.title }}</li>
+        <li class="suite_number">{{ floor-seven.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--EIGHTH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Eight</h3>
+    {% for floor-eight in site.floor-eight %}
+      <ul class="floor-eight">
+        <li class="title">{{ floor-eight.title }}</li>
+        <li class="suite_number">{{ floor-eight.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
+  <!--NINETH FLOOR STARTS HERE -->
+  <div class="row">
+    <h3>Floor Nine</h3>
+    {% for floor-nine in site.floor-nine %}
+      <ul class="floor-nine">
+        <li class="title">{{ floor-nine.title }}</li>
+        <li class="suite_number">{{ floor-nine.suite_number }}</li>
+      </ul>
+    {% endfor %}
+  </div>
+
 </div>

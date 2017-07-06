@@ -5,13 +5,13 @@ collections:
   floor-one:
     title: Floor One
     output: false
+  floor-three:
+    title: Floor Three
+    output: false
   floor-two:
     title: Floor Two
     output: false
   uploads:
-    title: Page
-    output: false
-  floor-three:
     title: Page
     output: false
   floor-four:

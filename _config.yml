@@ -2,74 +2,39 @@
 title: Edney Directory
 timezone: UTC
 collections:
-  floor-eight:
-    title: Floor Eight
-    output: true
-  floor-five:
-    title: Floor Five
-    output: true
-  floor-four:
-    title: Floor Four
-    output: true
-  floor-nine:
-    title: Floor Nine
-    output: true
   floor-one:
     title: Floor One
     output: true
-  floor-seven:
-    title: Floor Seven
-    output: true
-  floor-six:
-    title: Floor Six
-    output: true
-  floor-three:
-    title: Floor Three
-    output: true
-  floor-two:
-    title: Floor Two
-    output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
-    title: Uploads
-    output: true
     title: Page
-    suite_number:
     output: false
   floor-two:
     title: Page
-    suite_number:
     output: false
   floor-three:
     title: Page
-    suite_number:
     output: false
   floor-four:
     title: Page
-    suite_number:
     output: false
   floor-five:
     title: Page
-    suite_number:
     output: false
   floor-six:
     title: Page
-    suite_number:
     output: false
   floor-seven:
     title: Page
-    suite_number:
     output: false
   floor-eight:
     title: Page
-    suite_number:
     output: false
   floor-nine:
     title: Page
-    suite_number:
     output: false
+  posts:
+    title: Posts
+    output: true
 defaults:
 - scope:
     path: ''

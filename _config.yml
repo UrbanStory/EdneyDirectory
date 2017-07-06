@@ -11,6 +11,9 @@ collections:
   floor-four:
     title: Floor Four
     output: false
+  floor-nine:
+    title: Floor Nine
+    output: false
   floor-one:
     title: Floor One
     output: false
@@ -27,9 +30,6 @@ collections:
     title: Floor Two
     output: false
   uploads:
-    title: Page
-    output: false
-  floor-nine:
     title: Page
     output: false
   posts:

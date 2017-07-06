@@ -15,7 +15,6 @@ collections:
     title: Floor Nine
     output: true
   floor-one:
-<<<<<<< ac82cc121a3966432e2cd6a3542b74a96d92f271
     title: Floor One
     output: true
   floor-seven:
@@ -72,7 +71,6 @@ collections:
     title: Page
     suite_number:
     output: false
->>>>>>> updated lots of things and finally got the for loop to work in directory.html
 defaults:
 - scope:
     path: ''

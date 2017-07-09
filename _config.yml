@@ -2,9 +2,6 @@
 title: Edney Directory
 timezone: UTC
 collections:
-  floor-five:
-    title: Floor Five
-    output: false
   floor-four:
     title: Floor Four
     output: false

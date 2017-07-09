@@ -3,7 +3,7 @@ title: Edney Directory
 timezone: UTC
 collections:
   tenants:
-    title: 
+    title:
     suite:
     floor:
     output: true
@@ -12,6 +12,9 @@ collections:
     output: false
   posts:
     title: Posts
+    output: true
+  tenants:
+    title: Tenants
     output: true
 defaults:
 - scope:

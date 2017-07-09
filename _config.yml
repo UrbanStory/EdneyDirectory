@@ -43,9 +43,6 @@ collections:
     output: true
 defaults:
 - scope:
-    floor: number
-    suite: number
-- scope:
     path: ''
     type: posts
   values:

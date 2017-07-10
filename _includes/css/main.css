@@ -12,12 +12,9 @@
 
 body{
   background-color: #2F2359;
-  width: 1080px;
 }
 
 .container-fluid {
-  display: flex;
-  justify-content: center;
 }
 
 .grid {
@@ -33,16 +30,12 @@ body{
 .headergrid {
   display: grid;
   height: 250px;
+  max-width: 1080px;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid yellow;
-
+  justify-content: center;
 }
 
 .headerwrap {
-    display: flex;
-    justify-content: space-between;
-}
-
-.headerwrap img {
-
+  display: flex;
+  align-items: flex-start;
 }

@@ -10,19 +10,40 @@
 
 ################################################################# */
 
+body{
+  background-color: #2F2359;
+  width: 1080px;
+}
 
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
 
-
-
-
-
-
-
-
-
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
+
+.headergrid {
+  display: grid;
+  height: 250px;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid yellow;
+
+}
+
+.headerwrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerwrap img {
+
+}
 

@@ -12,7 +12,7 @@ collections:
     title: Tenants
     output: true
   events:
-    title:
+    title: Events
     date:
     output: true
 defaults:
@@ -34,4 +34,10 @@ defaults:
     title:
     suite:
     floor:
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: events
+    permalink: "/events/:title/"
 permalink: pretty

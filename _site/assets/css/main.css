@@ -15,10 +15,16 @@
   src: url('/assets/css/circular/') format('embedded-opentype');
 }
 
+@font-face {
+  font-family: 'Tiempos';
+  src: url('/assets/css/tiempos/') format('embedded-opentype');
+}
+
 /*################################################################# */
 
 body{
   background-color: #2F2359;
+  color: #fff;
   max-width: 1080px;
   margin: 0 auto;
 }
@@ -40,7 +46,7 @@ body{
 	1. GENERAL STRUCTURES
 ################################################################# */
 
-.headergrid {
+header {
   display: grid;
   height: 250px;
   grid-template-columns: 1fr 1fr;
@@ -57,5 +63,36 @@ body{
   color: #20BF55;
   font-size: 14rem;
   padding-top: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 514px 565px;
+  justify-content: center;
+  line-height: 60px;
+}
+
+{
+  padding-bottom: 20px;
+  border: 1px solid yellow;
+}
+
+main p.company {
+  font-family: 'Circular-book', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #FF7171;
+  margin-left: 130px;
+}
+
+main p.suite {
+  font-family: 'Tiempos Text', serif;
+  font-size: 40px;
+  color: #20BF55;
+  font-weight: 600;
+  style: normal;
+  border-bottom: 1px solid yellow;
+
 }
 

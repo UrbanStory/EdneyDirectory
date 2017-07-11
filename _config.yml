@@ -2,6 +2,9 @@
 title: Edney Directory
 timezone: UTC
 collections:
+  events:
+    title: Events
+    output: true
   uploads:
     title: Page
     output: false
@@ -15,6 +18,7 @@ collections:
     title: Events
     date:
     output: true
+
 defaults:
 - scope:
     path: ''
@@ -40,4 +44,7 @@ defaults:
   values:
     layout: events
     permalink: "/events/:title/"
+    title:
+    suite:
+    floor:
 permalink: pretty

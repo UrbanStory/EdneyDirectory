@@ -11,6 +11,10 @@ collections:
   tenants:
     title: Tenants
     output: true
+  events:
+    title:
+    date:
+    output: true
 defaults:
 - scope:
     path: ''
@@ -27,7 +31,7 @@ defaults:
     path: ''
     type: tenants
   values:
-    title: 
-    suite: 
-    floor: 
+    title:
+    suite:
+    floor:
 permalink: pretty

@@ -1,5 +1,4 @@
 ---
-title: Directory
+title: directory
 layout: index
 ---
-

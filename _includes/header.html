@@ -5,7 +5,13 @@
           <img src="/assets/img/e-logo-header.png" />
         </div><!-- /header -->
         <div class="headerwrap">
-          <h1>events</h1>
+          <h1>
+            {% for page.title in site.events %}
+              {{ page.title }}
+                {% else %}
+              {{ page.title == nil }}
+            {% endif %}
+          </h1>
         </div><!-- /header -->
       </div><!-- /grid -->
     </div><!-- /row -->

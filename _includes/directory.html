@@ -3,21 +3,23 @@
   <!--TENANTS STARTS HERE -->
   <div class="row">
     <main>
-      {% assign tenants = site.tenants | sort: 'floor' %}
+      {% assign tenants = site.tenants | group-by 'floor' | sort: 'floor' %}
+      {% print tenants %}
       {% assign currentFloor = 0 %}
       {% assign previousFloor = 0 %}
 
-      {% for floor in tenants  %}
-        {% assign currentFloor = floor.floor %}
+      {% for tenantGroup in tenants  %}
+        {% for tenant in tenantGroup %}
+        {% assign currentFloor = tenant.floor %}
         <!-- close the previous floor group, but only if it's not our first iteration -->
         {% if previousFloor != currentFloor && currentFloor > 0 %}
           </div>
         {% endif %}
         {% if previousFloor != currentFloor %}
-          <div class="floorgroup {{floor.floor}}">
+          <div class="floorgroup {{tenant.floor}}">
         {% endif %}
-        <p class="company">{{floor.title}}</p>
-        <p class="suite">{{floor.suite}}</p>
+        <p class="company">{{tenant.title}}</p>
+        <p class="suite">{{tenant.suite}}</p>
         {% assign previousFloor = currentFloor %}
       {% endfor %}
     </main>

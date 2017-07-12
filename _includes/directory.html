@@ -3,26 +3,18 @@
   <!--TENANTS STARTS HERE -->
   <div class="row">
     <main>
-      {% assign tenants = site.tenants | group-by 'floor' | sort: 'floor' %}
-      {% print tenants %}
-      {% assign currentFloor = 0 %}
-      {% assign previousFloor = 0 %}
-
-      {% for tenantGroup in tenants  %}
-        {% for tenant in tenantGroup %}
-        {% assign currentFloor = tenant.floor %}
-        <!-- close the previous floor group, but only if it's not our first iteration -->
-        {% if previousFloor != currentFloor && currentFloor > 0 %}
-          </div>
-        {% endif %}
-        {% if previousFloor != currentFloor %}
-          <div class="floorgroup {{tenant.floor}}">
-        {% endif %}
-        <p class="company">{{tenant.title}}</p>
-        <p class="suite">{{tenant.suite}}</p>
-        {% assign previousFloor = currentFloor %}
+      {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
+      {% for floorGroup in floorGroups  %}
+      {% if floorGroup.size > 1 %} {% assign hasMultipleTenants = true %} 
+      {% else %} {% assign hasMultipleTenants = false %} 
+      {% endif %}
+        <div class="floorgroup floor-{{floorGroup.name}} has-multiple-tenants-{{hasMultipleTenants}}">
+          {% for tenant in floorGroup.items %}
+            <p class="company">{{tenant.title}}</p>
+            <p class="suite">{{tenant.suite}}</p>
+          {% endfor %}            
+        </div>
       {% endfor %}
     </main>
   </div>
-
 </div>

@@ -26,10 +26,8 @@ body{
   background-color: #2F2359;
   color: #fff;
   max-width: 1080px;
+  height: 1920px;
   margin: 0 auto;
-}
-
-.container-fluid {
 }
 
 .grid {
@@ -66,15 +64,20 @@ header {
 }
 
 main {
-  display: grid;
-  grid-template-columns: 514px 565px;
-  justify-content: center;
-  line-height: 60px;
+  width: 822px;
+  justify-content: space-around;
+  margin-left: 130px;
+  line-height: 40px;
 }
 
-{
-  padding-bottom: 20px;
-  border: 1px solid yellow;
+.floorgroup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+}
+
+main p {
+  padding-top: 20px;
 }
 
 main p.company {
@@ -83,7 +86,7 @@ main p.company {
   font-style: normal;
   font-size: 30px;
   color: #FF7171;
-  margin-left: 130px;
+  grid-column-start: 1;
 }
 
 main p.suite {
@@ -92,6 +95,10 @@ main p.suite {
   color: #20BF55;
   font-weight: 600;
   style: normal;
-  border-bottom: 1px solid yellow;
+  padding-left: 200px;
+  grid-column-start: 2;
+}
 
+main p:nth-child(2) {
+  border-top: 1px solid rgba(228, 220, 203, 0.3);
 }

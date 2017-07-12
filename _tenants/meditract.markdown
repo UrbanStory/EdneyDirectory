@@ -1,6 +1,5 @@
 ---
 title: MediTract
-suite: 403 &amp; 404
+suite: 403, 404
 floor: 4
 ---
-

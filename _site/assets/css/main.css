@@ -68,6 +68,7 @@ main {
   justify-content: space-around;
   margin-left: 130px;
   line-height: 40px;
+  margin-top: -20px;
 }
 
 .floorgroup {
@@ -77,16 +78,16 @@ main {
 }
 
 main p {
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 main p.company {
-  font-family: 'Circular-book', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Circular-book', sans-serif;
   font-style: normal;
   font-size: 30px;
   color: #FF7171;
   grid-column-start: 1;
+  padding-top: 25px;
 }
 
 main p.suite {

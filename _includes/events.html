@@ -1,13 +1,13 @@
-
-
 <div class="container">
 
-  <!--TENANTS STARTS HERE -->
+  <!--EVENTS STARTS HERE -->
   <div class="row">
     <main class="events">
-      {% for page in events %}
-        <h1>{{ page.title }}</h1>
-        {{ content }}
+      {% for post in site.posts %}
+        <div class="eventcontent">
+          <h1 class='post-title'>{{post.title}}</h1>
+          <h1 class='post-content'>{{post.content}}</h1>
+        </div>
       {% endfor %}
     </main>
   </div>

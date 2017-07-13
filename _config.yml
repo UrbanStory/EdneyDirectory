@@ -2,9 +2,6 @@
 title: Edney Directory
 timezone: UTC
 collections:
-  events:
-    title: Events
-    output: true
   uploads:
     title: Page
     output: false
@@ -13,6 +10,9 @@ collections:
     output: true
   tenants:
     title: Tenants
+    output: true
+  events:
+    title: Events
     output: true
 defaults:
 - scope:
@@ -30,16 +30,14 @@ defaults:
     path: ''
     type: tenants
   values:
-    title: 
-    suite: 
-    floor: 
+    title:
+    suite:
+    floor:
 - scope:
     path: ''
     type: events
   values:
+    title:
     layout: events
     permalink: "/events/:title/"
-    title: 
-    suite: 
-    floor: 
 permalink: pretty

@@ -12,12 +12,12 @@
 
 @font-face {
   font-family: 'Circular';
-  src: url('/assets/css/circular/') format('embedded-opentype');
+  src: url('{{ "/assets/css/circular/" | prepend: site.baseurl }}') format('embedded-opentype');
 }
 
 @font-face {
   font-family: 'Tiempos';
-  src: url('/assets/css/tiempos/') format('embedded-opentype');
+  src: url('{{ "/assets/css/tiempos/" | prepend: site.baseurl }}') format('embedded-opentype');
 }
 
 /*################################################################# */
@@ -60,7 +60,7 @@ header {
   font-family: 'Circular-black', Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #20BF55;
   font-size: 14rem;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 main {
@@ -74,11 +74,11 @@ main {
 .floorgroup {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 main p {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 main p.company {
@@ -103,3 +103,10 @@ main p.suite {
 main p:nth-child(2) {
   border-top: 1px solid rgba(228, 220, 203, 0.3);
 }
+
+/*
+main p.suite:last-child  {
+  border-bottom: 1px solid rgba(228, 220, 203, 0.3);
+}
+
+*/

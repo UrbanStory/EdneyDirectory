@@ -12,7 +12,7 @@
 @import url('https://www.dropbox.com/s/65hbg4ljk1itagd/Circular-Book.woff?dl=0');
 @import url('https://www.dropbox.com/s/f3z0hi4mvd09wmz/Circular-Black.woff?dl=0');
 
-/* @font-face {
+@font-face {
   font-family: 'Circular';
   src: url('{{ "/assets/css/circular/" | prepend: site.baseurl }}') format('embedded-opentype');
 }
@@ -21,7 +21,7 @@
   font-family: 'Tiempos';
   src: url('{{ "/assets/css/tiempos/" | prepend: site.baseurl }}') format('embedded-opentype');
 }
-*/
+
 
 @import url('https://www.dropbox.com/s/992qupxz4uyroma/TiemposTextWeb-Regular.woff?dl=0');
 @import url('https://www.dropbox.com/s/96sazkow01d3tp4/TiemposTextWeb-Semibold.woff?dl=0');
@@ -103,8 +103,18 @@ main p.suite {
   color: #20BF55;
   font-weight: 600;
   style: normal;
-  padding-left: 200px;
+  padding-left: 150px;
   grid-column-start: 2;
+}
+
+main p.floor {
+  grid-column-start: 4;
+  font-family: 'Circular-Book', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  color: #645A7B;
+  border-top: 1px solid rgba(228, 220, 203, 0.3);
+  padding-right: 20px;
 }
 
 main p:nth-child(2) {

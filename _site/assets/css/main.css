@@ -66,8 +66,10 @@ header {
 .headerwrap h1 {
   font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #20BF55;
-  font-size: 14rem;
-  padding-top: 10px;
+  font-size: 184px;
+  padding-top: -10px;
+  line-height: 184px;
+  padding-right: 100px;
 }
 
 main {
@@ -76,6 +78,20 @@ main {
   margin-left: 130px;
   line-height: 40px;
   margin-top: -20px;
+}
+
+.events {
+  background-color: #FF7171;
+  height: 1670px;
+  padding-right: 130px;
+  padding-top:80px;
+}
+
+.events h1 {
+  color: #B23D3D;
+  font-family: 'Circular-Black', sans-serif;
+  font-style: normal;
+  font-size: 144px;
 }
 
 .floorgroup {

@@ -24,7 +24,7 @@
 */
 
 @import url('https://www.dropbox.com/s/992qupxz4uyroma/TiemposTextWeb-Regular.woff?dl=0');
-@import url('https://www.dropbox.com/s/96sazkow01d3tp4/TiemposTextWeb-Semibold.woff?dl=0')
+@import url('https://www.dropbox.com/s/96sazkow01d3tp4/TiemposTextWeb-Semibold.woff?dl=0');
 
 
 /*################################################################# */
@@ -98,7 +98,7 @@ main p.company {
 }
 
 main p.suite {
-  font-family: 'TiemposTextWeb-Semibold', serif;
+  font-family: 'TiemposText-Semibold', serif;
   font-size: 40px;
   color: #20BF55;
   font-weight: 600;

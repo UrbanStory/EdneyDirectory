@@ -9,8 +9,10 @@
 	URL:
 
 ################################################################# */
+@import url('https://www.dropbox.com/s/65hbg4ljk1itagd/Circular-Book.woff?dl=0');
+@import url('https://www.dropbox.com/s/f3z0hi4mvd09wmz/Circular-Black.woff?dl=0');
 
-@font-face {
+/* @font-face {
   font-family: 'Circular';
   src: url('/assets/css/circular/') format('embedded-opentype');
 }
@@ -19,6 +21,11 @@
   font-family: 'Tiempos';
   src: url('/assets/css/tiempos/') format('embedded-opentype');
 }
+*/
+
+@import url('https://www.dropbox.com/s/992qupxz4uyroma/TiemposTextWeb-Regular.woff?dl=0');
+@import url('https://www.dropbox.com/s/96sazkow01d3tp4/TiemposTextWeb-Semibold.woff?dl=0')
+
 
 /*################################################################# */
 
@@ -57,7 +64,7 @@ header {
 }
 
 .headerwrap h1 {
-  font-family: 'Circular-black', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #20BF55;
   font-size: 14rem;
   padding-top: 10px;
@@ -82,7 +89,7 @@ main p {
 }
 
 main p.company {
-  font-family: 'Circular-book', sans-serif;
+  font-family: 'Circular-Book', sans-serif;
   font-style: normal;
   font-size: 30px;
   color: #FF7171;
@@ -91,7 +98,7 @@ main p.company {
 }
 
 main p.suite {
-  font-family: 'Tiempos Text', serif;
+  font-family: 'TiemposTextWeb-Semibold', serif;
   font-size: 40px;
   color: #20BF55;
   font-weight: 600;

@@ -17,6 +17,20 @@
     <!-- Custom styles for this template -->
     <link href="/assets/css/main.css" rel="stylesheet">
 
+    <!-- Flickity styles -->
+    <link rel="stylesheet" href="/assets/css/flickity.css" media="screen">
+    <script src="/assets/js/flickity.pkgd.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- or -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <!-- Flickity styles -->
+
+
     <!-- Custom fonts to go here -->
     <link href="https://www.dropbox.com/s/65hbg4ljk1itagd/Circular-Book.woff?dl=0" rel="stylesheet" type="text/css">
     <link href="https://www.dropbox.com/s/f3z0hi4mvd09wmz/Circular-Black.woff?dl=0" rel="stylesheet" type="text/css">
@@ -46,138 +60,156 @@
 
   <!--TENANTS STARTS HERE -->
   <div class="row">
-    <main class="mainwrap">
-      
-      
-      
-        <div class="floorgroup floor-1 has-multiple-tenants-false">
+    <div class="carousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+      <div class="carousel-cell">
+        <main class="mainwrap">
           
-            <p class="company">CO.Lab</p>
-            <p class="suite">101</p>
-            <p class="floor">FL 1</p>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-2 has-multiple-tenants-false">
           
-            <p class="company">TechTown</p>
-            <p class="suite">200</p>
-            <p class="floor">FL 2</p>
+            <div class="floorgroup floor-1 has-multiple-tenants-false">
+              
+                <p class="company">CO.Lab</p>
+                <p class="suite">101</p>
+                <p class="floor">FL 1</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-3 has-multiple-tenants-false">
           
-            <p class="company">Floor 3 Coming Soon</p>
-            <p class="suite"></p>
-            <p class="floor">FL 3</p>
+            <div class="floorgroup floor-2 has-multiple-tenants-false">
+              
+                <p class="company">TechTown</p>
+                <p class="suite">200</p>
+                <p class="floor">FL 2</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-4 has-multiple-tenants-true">
           
-            <p class="company">Bluewave Political Partners</p>
-            <p class="suite">400</p>
-            <p class="floor">FL 4</p>
+            <div class="floorgroup floor-3 has-multiple-tenants-false">
+              
+                <p class="company">Floor 3 Coming Soon</p>
+                <p class="suite"></p>
+                <p class="floor">FL 3</p>
+              
+            </div>
           
-            <p class="company">MediTract</p>
-            <p class="suite">403, 404</p>
-            <p class="floor">FL 4</p>
           
-            <p class="company">Tonya Craft Legal</p>
-            <p class="suite">401</p>
-            <p class="floor">FL 4</p>
+            <div class="floorgroup floor-4 has-multiple-tenants-true">
+              
+                <p class="company">Bluewave Political Partners</p>
+                <p class="suite">400</p>
+                <p class="floor">FL 4</p>
+              
+                <p class="company">MediTract</p>
+                <p class="suite">403, 404</p>
+                <p class="floor">FL 4</p>
+              
+                <p class="company">Tonya Craft Legal</p>
+                <p class="suite">401</p>
+                <p class="floor">FL 4</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-5 has-multiple-tenants-false">
           
-            <p class="company">The Enterprise Center</p>
-            <p class="suite">500</p>
-            <p class="floor">FL 5</p>
+            <div class="floorgroup floor-5 has-multiple-tenants-false">
+              
+                <p class="company">The Enterprise Center</p>
+                <p class="suite">500</p>
+                <p class="floor">FL 5</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-6 has-multiple-tenants-false">
           
-            <p class="company">Society of Work</p>
-            <p class="suite">600, 700</p>
-            <p class="floor">FL 6</p>
+            <div class="floorgroup floor-6 has-multiple-tenants-false">
+              
+                <p class="company">Society of Work</p>
+                <p class="suite">600, 700</p>
+                <p class="floor">FL 6</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-8 has-multiple-tenants-true">
           
-            <p class="company">Dural USA Inc.</p>
-            <p class="suite">803</p>
-            <p class="floor">FL 8</p>
+            <div class="floorgroup floor-8 has-multiple-tenants-true">
+              
+                <p class="company">Dural USA Inc.</p>
+                <p class="suite">803</p>
+                <p class="floor">FL 8</p>
+              
+                <p class="company">Color Test</p>
+                <p class="suite">806</p>
+                <p class="floor">FL 8</p>
+              
+                <p class="company">Dennemyer</p>
+                <p class="suite">801</p>
+                <p class="floor">FL 8</p>
+              
+            </div>
           
-            <p class="company">Color Test</p>
-            <p class="suite">806</p>
-            <p class="floor">FL 8</p>
           
-            <p class="company">Dennemyer</p>
-            <p class="suite">801</p>
-            <p class="floor">FL 8</p>
+            <div class="floorgroup floor-9 has-multiple-tenants-true">
+              
+                <p class="company">Utiliflex</p>
+                <p class="suite">907</p>
+                <p class="floor">FL 9</p>
+              
+                <p class="company">Nirav Patel</p>
+                <p class="suite">903</p>
+                <p class="floor">FL 9</p>
+              
+                <p class="company">Roman Healthcare</p>
+                <p class="suite">906</p>
+                <p class="floor">FL 9</p>
+              
+                <p class="company">Crash Creative</p>
+                <p class="suite">905</p>
+                <p class="floor">FL 9</p>
+              
+                <p class="company">Jensen Hughes</p>
+                <p class="suite">904</p>
+                <p class="floor">FL 9</p>
+              
+                <p class="company">Carbon Five</p>
+                <p class="suite">902</p>
+                <p class="floor">FL 9</p>
+              
+            </div>
           
-        </div>
-      
-      
-        <div class="floorgroup floor-9 has-multiple-tenants-true">
           
-            <p class="company">Utiliflex</p>
-            <p class="suite">907</p>
-            <p class="floor">FL 9</p>
+            <div class="floorgroup floor-10 has-multiple-tenants-false">
+              
+                <p class="company">Floor 10 Coming Soon</p>
+                <p class="suite"></p>
+                <p class="floor">FL 10</p>
+              
+            </div>
           
-            <p class="company">Nirav Patel</p>
-            <p class="suite">903</p>
-            <p class="floor">FL 9</p>
           
-            <p class="company">Roman Healthcare</p>
-            <p class="suite">906</p>
-            <p class="floor">FL 9</p>
+            <div class="floorgroup floor-11 has-multiple-tenants-false">
+              
+                <p class="company">Roof</p>
+                <p class="suite"></p>
+                <p class="floor">FL 11</p>
+              
+            </div>
           
-            <p class="company">Crash Creative</p>
-            <p class="suite">905</p>
-            <p class="floor">FL 9</p>
+        </main>
+      </div>
+      <div class="carousel-cell events">
+        <main>
           
-            <p class="company">Jensen Hughes</p>
-            <p class="suite">904</p>
-            <p class="floor">FL 9</p>
+            <div class="eventcontent">
+              <h1 class='post-title'>Happy Holidays!</h1>
+              <h1 class='post-content'><p>Building is closed 12/24-12/25</p>
+</h1>
+            </div>
           
-            <p class="company">Carbon Five</p>
-            <p class="suite">902</p>
-            <p class="floor">FL 9</p>
-          
-        </div>
-      
-      
-        <div class="floorgroup floor-10 has-multiple-tenants-false">
-          
-            <p class="company">Floor 10 Coming Soon</p>
-            <p class="suite"></p>
-            <p class="floor">FL 10</p>
-          
-        </div>
-      
-      
-        <div class="floorgroup floor-11 has-multiple-tenants-false">
-          
-            <p class="company">Roof</p>
-            <p class="suite"></p>
-            <p class="floor">FL 11</p>
-          
-        </div>
-      
-    </main>
+        </main>
+      </div>
+    </div>
+    </div>
   </div>
 </div>
+
+<script src="/assets/js/flickity.pkgd.min.js"></script>
 
 
 

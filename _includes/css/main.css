@@ -68,7 +68,6 @@ body{
   display: grid;
   grid-template-columns: 300px 1fr;
   height: 250px;
-  width: 100%;
 }
 
 .carousel .carousel-cell .header h1 {
@@ -79,7 +78,9 @@ body{
   color: #20BF55;
   margin-top: 5px;
   text-align: center;
-  grid-column-start: 2;
+  grid-column-start:2;
+  grid-column-end: 4;
+  width: 100%;
 }
 
 main {

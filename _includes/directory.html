@@ -10,12 +10,18 @@
         <div class="carousel-cell">
           <h1>events</h1>
         </div>
+        <div class="carousel-cell">
+          <h1></h1>
+        </div>
+        <div class="carousel-cell">
+          <h1>events</h1>
+        </div>
       </div>
     </header>
 
     <div class="mainCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
       <div class="carousel-cell">
-        <main class="mainwrap">
+        <main>
           {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
           {% for floorGroup in floorGroups  %}
           {% if floorGroup.size > 1 %} {% assign hasMultipleTenants = true %}
@@ -34,9 +40,9 @@
       <div class="carousel-cell">
         <main class="events">
         {% for post in site.posts %}
-          <div class="eventcontent">
-            <h1 class='post-title'>{{post.title}}</h1>
-            <h1 class='post-content'>{{post.content}}</h1>
+          <div class="eventContent">
+            <h1>{{post.title}}</h1>
+            <div>{{post.content}}</div>
           </div>
         {% endfor %}
         </main>

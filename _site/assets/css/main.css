@@ -88,7 +88,7 @@ main {
   padding-left: 130px;
 }
 
-main.events h1 {
+main.events .eventContent h1, main.events .eventContent div {
   font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #B23D3D;
   font-size: 144px;
@@ -128,7 +128,7 @@ main p.company {
 }
 
 main p.suite {
-  font-family: 'TiemposTextWeb-Semibold', serif;
+  font-family: 'TiemposText-Semibold', serif;
   font-size: 40px;
   color: #20BF55;
   font-weight: 600;

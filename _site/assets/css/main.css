@@ -87,7 +87,7 @@ header .headerCarousel .carousel-cell h1 {
 
 main {
   width: 1080px;
-  line-height: 40px;
+  line-height: 30px;
   padding-left: 130px;
 }
 
@@ -141,7 +141,7 @@ main .floorgroup p.suite {
   color: #20BF55;
   grid-column-start: 2;
   align-self: baseline;
-  padding-left: 200px;
+  padding-left: 190px;
 }
 
 main .floorgroup p:nth-child(2) {

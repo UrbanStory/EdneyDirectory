@@ -12,13 +12,6 @@
 
 @import url('{{ "/assets/css/flickity.css" | prepend: site.baseurl }}');
 
-@import url('https://www.dropbox.com/s/65hbg4ljk1itagd/Circular-Book.woff?dl=0');
-@import url('https://www.dropbox.com/s/f3z0hi4mvd09wmz/Circular-Black.woff?dl=0');
-
-@font-face {
-  font-family: 'Circular-black';
-  src: url('{{ "/assets/css/circular/" | prepend: site.baseurl }}') format('embedded-opentype');
-}
 @font-face {
   font-family: 'Circular-Black';
   src: url('{{ "/assets/css/circular/Circular-Black.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/circular/Circular-Black.otf" | prepend: site.baseurl }}')  format('opentype'),
@@ -32,20 +25,18 @@
 	font-style: normal;
 }
 
-
-
-
-
 @font-face {
-  font-family: 'Tiempos';
-  src: url('{{ "/assets/css/tiempos/" | prepend: site.baseurl }}') format('embedded-opentype');
+  font-family: 'TiemposTextWeb-Regular';
+  src: url('{{ "/assets/css/tiempos/TiemposTextWeb-Regular.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/tiempos/TiemposTextWeb-Regular.otf" | prepend: site.baseurl }}')  format('opentype'),
+	     url('{{ "/assets/css/tiempos/TiemposTextWeb-Regular.woff" | prepend: site.baseurl }}') format('woff'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Regular.ttf" | prepend: site.baseurl }}')  format('truetype'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Regular.svg#TiemposTextWeb-Regular" | prepend: site.baseurl }}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'TiemposTextWeb-Semibold';
+  src: url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.otf" | prepend: site.baseurl }}')  format('opentype'),
+	     url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.woff" | prepend: site.baseurl }}') format('woff'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.ttf" | prepend: site.baseurl }}')  format('truetype'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.svg#TiemposTextWeb-Semibold" | prepend: site.baseurl }}') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
-
-
-@import url('https://www.dropbox.com/s/992qupxz4uyroma/TiemposTextWeb-Regular.woff?dl=0');
-@import url('https://www.dropbox.com/s/96sazkow01d3tp4/TiemposTextWeb-Semibold.woff?dl=0');
-
-
 /*################################################################# */
 
 body{
@@ -137,7 +128,7 @@ main p.company {
 }
 
 main p.suite {
-  font-family: 'TiemposText-Semibold', serif;
+  font-family: 'TiemposTextWeb-Semibold', serif;
   font-size: 40px;
   color: #20BF55;
   font-weight: 600;

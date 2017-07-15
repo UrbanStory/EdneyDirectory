@@ -182,3 +182,7 @@ main .floorgroup.floor-9  p:nth-child(15),
 main .floorgroup.floor-9  p:nth-child(18) {
   display: none;
 }
+
+.flickity-prev-next-button {
+  display: none;
+}

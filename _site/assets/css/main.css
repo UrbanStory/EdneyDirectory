@@ -44,7 +44,6 @@ body{
   background-color: #2F2359;
   color: #fff;
   max-width: 1080px;
-  height: 1920px;
   margin: 0 auto;
   background-image: url('/assets/img/e-logo-header.png');
   background-position: top left;
@@ -102,7 +101,7 @@ main.events .eventContent h1, main.events .eventContent div {
 
 .events {
   background-color: #FF7171;
-  height: 1920px;
+  height: 1670px;
   padding-right: 130 px;
   padding-top:80px;
 }

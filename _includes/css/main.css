@@ -137,7 +137,7 @@ main .floorgroup.floor-3 p.company, main .floorgroup.floor-10 p.company  {
   color: #E4DCCB;
 }
 
-main p.suite {
+main .floorgroup p.suite {
   font-family: 'TiemposTextWeb-Semibold', serif;
   font-style: normal;
   font-weight: normal;
@@ -148,7 +148,12 @@ main p.suite {
   padding-left: 200px;
 }
 
-main p.floor {
+main .floorgroup p:nth-child(2) {
+  border-top: 1px solid rgba(228, 220, 203, 0.3);
+
+}
+
+main .floorgroup p.floor {
   grid-column-start: 4;
   font-family: 'Circular-Book', sans-serif;
   font-style: normal;
@@ -159,9 +164,7 @@ main p.floor {
   padding-right: 20px;
 }
 
-main p:nth-child(2) {
-  border-top: 1px solid rgba(228, 220, 203, 0.3);
-}
+
 
 main .floorgroup.floor-4  p:nth-child(6), main .floorgroup.floor-4  p:nth-child(9) {
   display: none;
@@ -177,6 +180,11 @@ main .floorgroup.floor-9  p:nth-child(12),
 main .floorgroup.floor-9  p:nth-child(15),
 main .floorgroup.floor-9  p:nth-child(18) {
   display: none;
+}
+
+main .floorgroup.floor-3 p:nth-child(2),
+main .floorgroup.floor-10 p:nth-child(2) {
+  color: #2F2359;
 }
 
 

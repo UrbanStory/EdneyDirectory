@@ -1,6 +1,5 @@
 ---
 title: Floor 3 Coming Soon
-suite: 
+suite: 100
 floor: 3
 ---
-

@@ -26,11 +26,6 @@
 }
 
 @font-face {
-  font-family: 'TiemposTextWeb-Regular';
-  src: url('/assets/css/tiempos/TiemposTextWeb-Regular.eot?#iefix') format('embedded-opentype'),  url('/assets/css/tiempos/TiemposTextWeb-Regular.otf')  format('opentype'),
-	     url('/assets/css/tiempos/TiemposTextWeb-Regular.woff') format('woff'), url('/assets/css/tiempos/TiemposTextWeb-Regular.ttf')  format('truetype'), url('/assets/css/tiempos/TiemposTextWeb-Regular.svg#TiemposTextWeb-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
   font-family: 'TiemposTextWeb-Semibold';
   src: url('/assets/css/tiempos/TiemposTextWeb-Semibold.eot?#iefix') format('embedded-opentype'),  url('/assets/css/tiempos/TiemposTextWeb-Semibold.otf')  format('opentype'),
 	     url('/assets/css/tiempos/TiemposTextWeb-Semibold.woff') format('woff'), url('/assets/css/tiempos/TiemposTextWeb-Semibold.ttf')  format('truetype'), url('/assets/css/tiempos/TiemposTextWeb-Semibold.svg#TiemposTextWeb-Semibold') format('svg');
@@ -61,6 +56,7 @@ body{
 ################################################################# */
 
 header {
+  text-align: center;
   display: grid;
   grid-area: "header";
   grid-template-columns: 1fr 2fr;
@@ -75,10 +71,11 @@ header .headerCarousel .carousel-cell {
 
 header .headerCarousel .carousel-cell h1 {
   font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 184px;
   color: #20BF55;
   background-color: #2F2359;
-  font-size: 184px;
-  text-align: center;
   margin-top: 5px;
 }
 
@@ -90,6 +87,8 @@ main {
 
 main.events .eventContent h1, main.events .eventContent div {
   font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
   color: #B23D3D;
   font-size: 144px;
   line-height: 144px;
@@ -119,6 +118,7 @@ main p {
 main p.company {
   font-family: 'Circular-Book', sans-serif;
   font-style: normal;
+  font-weight: normal;
   font-size: 30px;
   color: #FF7171;
   grid-column-start: 1;
@@ -129,10 +129,10 @@ main p.company {
 
 main p.suite {
   font-family: 'TiemposText-Semibold', serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 40px;
   color: #20BF55;
-  font-weight: 600;
-  style: normal;
   grid-column-start: 2;
   align-self: baseline;
   padding-left: 200px;
@@ -142,12 +142,11 @@ main p.floor {
   grid-column-start: 4;
   font-family: 'Circular-Book', sans-serif;
   font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   color: #645A7B;
   border-top: 1px solid rgba(228, 220, 203, 0.3);
   padding-right: 20px;
-  align-self: baseline;
-
 }
 
 main p:nth-child(2) {

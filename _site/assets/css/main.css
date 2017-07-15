@@ -62,11 +62,12 @@ body{
 ################################################################# */
 
 header {
-  text-align: center;
   display: grid;
-  grid-area: "header";
-  grid-template-columns: 1fr 2fr;
-  height: 250px;
+  grid-template-columns: 300px 1fr;
+}
+
+header .logo {
+  grid-column-start: 1;
 }
 
 header .headerCarousel .carousel-cell {
@@ -83,6 +84,7 @@ header .headerCarousel .carousel-cell h1 {
   color: #20BF55;
   background-color: #2F2359;
   margin-top: 5px;
+  text-align: center;
 }
 
 main {
@@ -92,7 +94,7 @@ main {
 }
 
 main.events .eventContent h1, main.events .eventContent div {
-  font-family: 'Circular-Book', sans-serif; important!
+  font-family: 'Circular-Book', sans-serif;
   font-style: normal;
   font-weight: 900;
   color: #B23D3D;
@@ -104,7 +106,7 @@ main.events .eventContent h1, main.events .eventContent div {
 
 .events {
   background-color: #FF7171;
-  height: 1670px;
+  height: 1920px;
   padding-right: 130 px;
   padding-top:80px;
 }

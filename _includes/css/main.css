@@ -70,7 +70,7 @@ header .headerCarousel .carousel-cell {
 }
 
 header .headerCarousel .carousel-cell h1 {
-  font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Circular-Black', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 184px;
@@ -86,7 +86,7 @@ main {
 }
 
 main.events .eventContent h1, main.events .eventContent div {
-  font-family: 'Circular-Black', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Circular-Black', sans-serif; important!
   font-style: normal;
   font-weight: normal;
   color: #B23D3D;
@@ -128,7 +128,7 @@ main p.company {
 }
 
 main p.suite {
-  font-family: 'TiemposText-Semibold', serif;
+  font-family: 'TiemposTextWeb-Semibold', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;

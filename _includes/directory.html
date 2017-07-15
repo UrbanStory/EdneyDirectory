@@ -1,8 +1,19 @@
-<div class="container-fluid">
+<body>
+  <div class="grid">
 
-  <!--TENANTS STARTS HERE -->
-  <div class="row">
-    <div class="carousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+    <header>
+      {% include logo.html %}
+      <div class="headerCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+        <div class="carousel-cell">
+          <h1></h1>
+        </div>
+        <div class="carousel-cell">
+          <h1>events</h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="mainCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
       <div class="carousel-cell">
         <main class="mainwrap">
           {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
@@ -20,17 +31,17 @@
           {% endfor %}
         </main>
       </div>
-      <div class="carousel-cell events">
-        <main>
-          {% for post in site.posts %}
-            <div class="eventcontent">
-              <h1 class='post-title'>{{post.title}}</h1>
-              <h1 class='post-content'>{{post.content}}</h1>
-            </div>
-          {% endfor %}
+      <div class="carousel-cell">
+        <main class="events">
+        {% for post in site.posts %}
+          <div class="eventcontent">
+            <h1 class='post-title'>{{post.title}}</h1>
+            <h1 class='post-content'>{{post.content}}</h1>
+          </div>
+        {% endfor %}
         </main>
       </div>
     </div>
-    </div>
+
   </div>
-</div>
+</body>

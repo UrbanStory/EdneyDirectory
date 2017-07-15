@@ -1,5 +1,5 @@
 ---
 title: Society of Work
-suite: 600
-floor: 6
+suite: 700
+floor: 7
 ---

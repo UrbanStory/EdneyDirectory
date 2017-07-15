@@ -14,21 +14,27 @@
 
 @font-face {
   font-family: 'Circular-Black';
-  src: url('{{ "/assets/css/circular/Circular-Black.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/circular/Circular-Black.otf" | prepend: site.baseurl }}')  format('opentype'),
-	     url('{{ "/assets/css/circular/Circular-Black.woff" | prepend: site.baseurl }}') format('woff'), url('{{ "/assets/css/circular/Circular-Black.ttf" | prepend: site.baseurl }}')  format('truetype'), url('{{ "/assets/css/circular/Circular-Black.svg#Circular-Black" | prepend: site.baseurl }}') format('svg');
+  src: url('{{ "/assets/css/circular/Circular-Black.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),
+	     url('{{ "/assets/css/circular/Circular-Black.woff" | prepend: site.baseurl }}') format('woff'),
+       url('{{ "/assets/css/circular/Circular-Black.ttf" | prepend: site.baseurl }}')  format('truetype'),
+       url('{{ "/assets/css/circular/Circular-Black.svg#Circular-Black" | prepend: site.baseurl }}') format('svg');
   font-weight: normal;
   font-style: normal;
 	font-family: 'Circular-Book';
-	src: url('{{ "/assets/css/circular/Circular-Book.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/circular/Circular-Book.otf" | prepend: site.baseurl }}')  format('opentype'),
-			 url('{{ "/assets/css/circular/Circular-Book.woff" | prepend: site.baseurl }}') format('woff'), url('{{ "/assets/css/circular/Circular-Book.ttf" | prepend: site.baseurl }}')  format('truetype'), url('{{ "/assets/css/circular/Circular-Book.svg#Circular-Book" | prepend: site.baseurl }}') format('svg');
+	src: url('{{ "/assets/css/circular/Circular-Book.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),
+			 url('{{ "/assets/css/circular/Circular-Book.woff" | prepend: site.baseurl }}') format('woff'),
+       url('{{ "/assets/css/circular/Circular-Book.ttf" | prepend: site.baseurl }}')  format('truetype'),
+       url('{{ "/assets/css/circular/Circular-Book.svg#Circular-Book" | prepend: site.baseurl }}') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
   font-family: 'TiemposTextWeb-Semibold';
-  src: url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),  url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.otf" | prepend: site.baseurl }}')  format('opentype'),
-	     url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.woff" | prepend: site.baseurl }}') format('woff'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.ttf" | prepend: site.baseurl }}')  format('truetype'), url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.svg#TiemposTextWeb-Semibold" | prepend: site.baseurl }}') format('svg');
+  src: url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.eot?#iefix" | prepend: site.baseurl }}') format('embedded-opentype'),
+	     url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.woff" | prepend: site.baseurl }}') format('woff'),
+       url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.ttf" | prepend: site.baseurl }}')  format('truetype'),
+       url('{{ "/assets/css/tiempos/TiemposTextWeb-Semibold.svg#TiemposTextWeb-Semibold" | prepend: site.baseurl }}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -127,6 +133,10 @@ main p.company {
   align-self: baseline;
 }
 
+main .floorgroup.floor-3 p.company, main .floorgroup.floor-10 p.company  {
+  color: #E4DCCB;
+}
+
 main p.suite {
   font-family: 'TiemposTextWeb-Semibold', serif;
   font-style: normal;
@@ -152,6 +162,23 @@ main p.floor {
 main p:nth-child(2) {
   border-top: 1px solid rgba(228, 220, 203, 0.3);
 }
+
+main .floorgroup.floor-4  p:nth-child(6), main .floorgroup.floor-4  p:nth-child(9) {
+  display: none;
+}
+
+main .floorgroup.floor-8  p:nth-child(6), main .floorgroup.floor-8  p:nth-child(9) {
+  display: none;
+}
+
+main .floorgroup.floor-9  p:nth-child(6),
+main .floorgroup.floor-9  p:nth-child(9),
+main .floorgroup.floor-9  p:nth-child(12),
+main .floorgroup.floor-9  p:nth-child(15),
+main .floorgroup.floor-9  p:nth-child(18) {
+  display: none;
+}
+
 
 /*
 main p.suite:last-child  {

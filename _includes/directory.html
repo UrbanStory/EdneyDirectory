@@ -19,7 +19,7 @@
       </div>
     </header>
 
-    <div class="mainCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": false }'>
+    <div class="mainCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
       <div class="carousel-cell">
         <main>
           {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}

@@ -1,10 +1,11 @@
 <body>
   <div class="grid">
 
-    {% include logo.html %}
-
-    <div class="mainCarousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
+    <div class="carousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": true }'>
       <div class="carousel-cell">
+        <div class="header">
+          <h1></h1>
+        </div>
         <main>
           {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
           {% for floorGroup in floorGroups  %}
@@ -22,6 +23,9 @@
         </main>
       </div>
       <div class="carousel-cell">
+        <div class="header">
+          <h1>events</h1>
+        </div>
         <main class="events">
         {% for post in site.posts %}
           <div class="eventContent">

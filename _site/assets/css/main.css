@@ -46,6 +46,9 @@ body{
   max-width: 1080px;
   height: 1920px;
   margin: 0 auto;
+  background-image: url('/assets/img/e-logo-header.png');
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 
 .grid {
@@ -61,30 +64,22 @@ body{
 	1. GENERAL STRUCTURES
 ################################################################# */
 
-header {
+.header {
   display: grid;
   grid-template-columns: 300px 1fr;
-}
-
-header .logo {
-  grid-column-start: 1;
-}
-
-header .headerCarousel .carousel-cell {
-  counter-increment: gallery-cell;
   height: 250px;
   width: 100%;
 }
 
-header .headerCarousel .carousel-cell h1 {
+.carousel .carousel-cell .header h1 {
   font-family: 'Circular-Book', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 184px;
   color: #20BF55;
-  background-color: #2F2359;
   margin-top: 5px;
   text-align: center;
+  grid-column-start: 2;
 }
 
 main {

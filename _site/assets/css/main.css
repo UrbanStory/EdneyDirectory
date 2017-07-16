@@ -48,6 +48,7 @@ body{
   background-image: url('/assets/img/e-logo-header.png');
   background-position: top left;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .grid {
@@ -83,6 +84,7 @@ body{
 }
 
 main {
+  background-color: #2F2359;
   width: 1080px;
   line-height: 36px;
   padding-left: 130px;
@@ -101,7 +103,7 @@ main.events .eventContent h1, main.events .eventContent div {
 
 .events {
   background-color: #FF7171;
-  height: 1670px;
+  height: 1920px;
   padding-right: 130 px;
   padding-top:80px;
 }

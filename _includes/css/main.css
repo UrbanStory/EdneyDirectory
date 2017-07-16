@@ -187,9 +187,16 @@ main .floorgroup.floor-9  p:nth-child(18) {
 
 .HasPoster {
   display: grid;
-  background-color: #fff;
   margin: 0;
   padding: 0;
+}
+
+.HasPoster h1 {
+  padding-bottom: 40px;
+}
+
+.eventContent {
+  padding-left: 130px;
 }
 
 img {

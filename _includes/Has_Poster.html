@@ -1,4 +1,5 @@
 
+{% assign event.Has_Poster = true %}
 {% for event in site.events %}
   <div class="HasPoster">
     <p><img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}"></p>

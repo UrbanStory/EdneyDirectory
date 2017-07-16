@@ -193,10 +193,12 @@ main .floorgroup.floor-9  p:nth-child(18) {
 
 .HasPoster h1 {
   padding-bottom: 40px;
+  z-index: 0;
 }
 
 .eventContent {
   padding-left: 130px;
+  padding-top: 40px;
 }
 
 img {
@@ -204,6 +206,7 @@ img {
   height: auto;
   width: 100%;
   align-self: flex-start;
+  z-index: 9;
 }
 
 .carousel-cell {

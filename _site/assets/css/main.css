@@ -70,6 +70,7 @@ body{
   height: 250px;
 }
 
+
 .carousel .carousel-cell .header h1 {
   font-family: 'Circular-Book', sans-serif;
   font-style: normal;
@@ -87,7 +88,6 @@ main {
   background-color: #2F2359;
   width: 1080px;
   line-height: 36px;
-  padding-left: 130px;
 }
 
 main.events .eventContent h1, main.events .eventContent div {
@@ -100,23 +100,16 @@ main.events .eventContent h1, main.events .eventContent div {
   margin-right: 130px;
 }
 
-
-.events {
-  background-color: #FF7171;
-  height: 1920px;
-  padding-right: 130 px;
-  padding-top:80px;
-}
-
 .floorgroup {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 5px;
   grid-gap: 0;
   margin-right: 130px;
+  margin-left: 130px;
 }
 
-main p {
+main .floorgroup p {
   padding-top: 20px;
 }
 
@@ -184,5 +177,25 @@ main .floorgroup.floor-9  p:nth-child(18) {
 
 .flickity-prev-next-button {
   display: none;
+}
+
+.events {
+  background-color: #FF7171;
+  height: 1920px;
+  padding-right: 130 px;
+}
+
+.HasPoster {
+  display: grid;
+  background-color: #FF7171;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  grid-column-start: 0;
+  height: auto;
+  width: 100%;
+  align-self: flex-start;
 }
 

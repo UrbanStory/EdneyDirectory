@@ -5,7 +5,6 @@ collections:
   events:
     title: Events
     output: true
-    Has_Poster: false
   uploads:
     title: Page
     output: false
@@ -31,16 +30,16 @@ defaults:
     path: ''
     type: tenants
   values:
-    title: 
-    suite: 
-    floor: 
+    title:
+    suite:
+    floor:
 - scope:
     path: ''
     type: events
   values:
-    title: 
+    title:
     layout: events
     permalink: "/events/:title/"
-    Has_Poster: 
-    Image: 
+    Has_Poster:
+    Image:
 permalink: pretty

@@ -90,16 +90,6 @@ main {
   line-height: 36px;
 }
 
-main.events .eventContent h1, main.events .eventContent div {
-  font-family: 'Circular-Book', sans-serif;
-  font-style: normal;
-  font-weight: 900;
-  color: #B23D3D;
-  font-size: 144px;
-  line-height: 144px;
-  margin-right: 130px;
-}
-
 .floorgroup {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -185,17 +175,26 @@ main .floorgroup.floor-9  p:nth-child(18) {
   padding-right: 130 px;
 }
 
+.events .eventContent h1, .events .eventContent div {
+  font-family: 'Circular-Book', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: #B23D3D;
+  font-size: 144px;
+  line-height: 144px;
+  margin-right: 130px;
+  padding-bottom: 60px;
+}
+
+.events .eventContent div {
+  padding-top: 20px;
+}
+
 .HasPoster {
   height: 1920px;
   display: grid;
   margin: 0;
   padding: 0;
-  background-color: #fff;
-}
-
-.HasPoster h1 {
-  padding-bottom: 40px;
-  z-index: 0;
 }
 
 .eventContent {

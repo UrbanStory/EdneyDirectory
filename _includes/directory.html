@@ -29,22 +29,17 @@
           </div>
         </div>
         <main class="events">
-          {% assign sorted = (site.events | sort: 'date') | reverse %}
+          {% assign sorted = (site.events | sort: 'date') |  %}
           {% for event in sorted limit:1 %}
-
-              {% if event.Has_Poster == true %}
-                <div class="HasPoster">
-                  <p><img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}"></p>
-                </div>
-              {% endif %}
-
-              {% if event.Has_Poster == false %}
-                <div class="eventContent">
-                  {% if event.title == blank %}{% else %}<h1>{{ event.title }}</h1>{% endif %}
-                  {% if event.content == blank %}blank{% else %}"<h1>{{ event.content }}</h1>"{% endif %}
-                </div>
-              {% endif %}
-            </div>
+            {% assign Has_Poster in event = true %}
+              <div class="HasPoster">
+                <p><img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}"></p>
+              </div>
+            {% else %} {% assign Has_Poster in event = false %}
+              <div class="eventContent">
+                {% if event.title == blank %}{% else %}<h1>{{ event.title }}</h1>{% endif %}
+                {% if event.content == blank %}blank{% else %}"<h1>{{ event.content }}</h1>"{% endif %}
+              </div>
           {% endfor %}
         </main>
       </div>

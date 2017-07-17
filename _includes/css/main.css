@@ -172,7 +172,7 @@ main .floorgroup.floor-9  p:nth-child(18) {
 main.events {
   background-color: #FF7171;
   height: 1920px;
-  padding-right: 130 px;
+  padding-right: 130px;
 }
 
 .events .eventContent h1, .events .eventContent div {

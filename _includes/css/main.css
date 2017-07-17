@@ -172,7 +172,7 @@ main .floorgroup.floor-9  p:nth-child(18) {
 main.events {
   background-color: #FF7171;
   height: 1920px;
-  padding-right: 130px;
+  display: grid;
 }
 
 .events .eventContent h1, .events .eventContent div {
@@ -182,24 +182,20 @@ main.events {
   color: #B23D3D;
   font-size: 144px;
   line-height: 144px;
-  margin-right: 130px;
   padding-bottom: 60px;
 }
 
-.events .eventContent div {
-  padding-top: 20px;
-}
-
-.HasPoster {
-  height: 1920px;
-}
-
 .eventContent {
+  padding-right: 130px;
   padding-left: 130px;
   padding-top: 40px;
 }
 
-img {
+.eventContent div {
+  padding-top: 20px;
+}
+
+.events img {
   grid-column-start: 0;
   height: auto;
   width: 100%;

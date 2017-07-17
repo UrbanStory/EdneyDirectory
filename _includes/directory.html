@@ -31,8 +31,8 @@
         <main class="events">
           {% assign sorted = site.events | sort:"date" | reverse %}
           {% assign event = sorted.first %}
-          {% include Has_Copy.html %}
           {% include Has_Poster.html %}
+          {% include Has_Copy.html %}
         </main>
       </div>
     </div>

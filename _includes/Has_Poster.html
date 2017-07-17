@@ -1,4 +1,8 @@
 
-  <div class="HasPoster">
-    <p><img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}"></p>
-  </div>
+{% capture cache %}
+  {% for Image in event.Image %}
+    <div>
+      <img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}">
+    </div>
+  {% endfor %}
+{% endcapture %}{% assign cache = nil %}

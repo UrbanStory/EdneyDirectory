@@ -29,7 +29,7 @@
           </div>
         </div>
         <main class="events">
-          {% assign sorted = (site.events | sort: 'date') |  %}
+          {% assign sorted = (site.events | sort: 'date') | reverse %}
           {% for event in sorted limit:1 %}
             {% assign Has_Poster in event = true %}
               <div class="HasPoster">

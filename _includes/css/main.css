@@ -169,7 +169,7 @@ main .floorgroup.floor-9  p:nth-child(18) {
   display: none;
 }
 
-.events {
+main.events {
   background-color: #FF7171;
   height: 1920px;
   padding-right: 130 px;
@@ -192,9 +192,6 @@ main .floorgroup.floor-9  p:nth-child(18) {
 
 .HasPoster {
   height: 1920px;
-  display: grid;
-  margin: 0;
-  padding: 0;
 }
 
 .eventContent {

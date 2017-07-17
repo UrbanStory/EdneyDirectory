@@ -1,41 +1,40 @@
-<body>
-  <div class="grid">
 
-    <div class="carousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": 8000 }'>
-      <div class="carousel-cell">
-        <div class="header">
-          <h1></h1>
-        </div>
-        <main>
-          {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
-          {% for floorGroup in floorGroups  %}
-          {% if floorGroup.size > 1 %} {% assign hasMultipleTenants = true %}
-          {% else %} {% assign hasMultipleTenants = false %}
-          {% endif %}
-            <div class="floorgroup floor-{{floorGroup.name}} has-multiple-tenants-{{hasMultipleTenants}}">
-              {% for tenant in floorGroup.items %}
-                <p class="company">{{tenant.title}}</p>
-                <p class="suite">{{tenant.suite}}</p>
-                <p class="floor">FL {{tenant.floor}}</p>
-              {% endfor %}
-            </div>
-          {% endfor %}
-        </main>
+<div class="grid">
+
+  <div class="carousel" flickity-enabled data-flickity='{ "wrapAround": true, "autoPlay": 8000 }'>
+    <div class="carousel-cell">
+      <div class="header">
+        <h1></h1>
       </div>
-      <div class="carousel-cell">
-        <div class="headerWrap">
-          <div class="header">
-            <h1>events</h1>
+      <main>
+        {% assign floorGroups = site.tenants | sort:"floor" | group_by:"floor" %}
+        {% for floorGroup in floorGroups  %}
+        {% if floorGroup.size > 1 %} {% assign hasMultipleTenants = true %}
+        {% else %} {% assign hasMultipleTenants = false %}
+        {% endif %}
+          <div class="floorgroup floor-{{floorGroup.name}} has-multiple-tenants-{{hasMultipleTenants}}">
+            {% for tenant in floorGroup.items %}
+              <p class="company">{{tenant.title}}</p>
+              <p class="suite">{{tenant.suite}}</p>
+              <p class="floor">FL {{tenant.floor}}</p>
+            {% endfor %}
           </div>
-        </div>
-        <main class="events">
-          {% assign sorted = site.events | sort:"date" %}
-          {% assign event = sorted.first %}
-          {% include Has_Poster.html %}
-          {% include Has_Copy.html %}
-        </main>
-      </div>
+        {% endfor %}
+      </main>
     </div>
-
+    <div class="carousel-cell">
+      <div class="headerWrap">
+        <div class="header">
+          <h1>events</h1>
+        </div>
+      </div>
+      <main class="events">
+        {% assign sorted = site.events | sort:"date" | reverse %}
+        {% assign event = sorted.first %}
+        {% include Has_Poster.html %}
+        {% include Has_Copy.html %}
+      </main>
+    </div>
   </div>
-</body>
+
+</div>

@@ -1,8 +1,5 @@
-
-{% capture cache %}
-  {% for Image in event.Image %}
-    <div>
-      <img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}">
-    </div>
-  {% endfor %}
-{% endcapture %}{% assign cache = nil %}
+{% if event.Image != nil %}
+  <div class="poster">
+    <img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}">
+  </div>
+{% endif %}

@@ -1,6 +1,7 @@
 ---
 title: Carbon Five
-suite: 902
+suites:
+- 902
 floor: 9
 ---
 

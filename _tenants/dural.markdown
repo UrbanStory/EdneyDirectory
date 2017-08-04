@@ -1,6 +1,7 @@
 ---
 title: Dural USA Inc.
-suite: 803
+suites:
+- 803
 floor: 8
 ---
 

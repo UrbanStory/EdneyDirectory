@@ -30,15 +30,15 @@ defaults:
     path: ''
     type: tenants
   values:
-    title: 
-    suite: 
-    floor: 
+    title:
+    suites:
+    floor:
 - scope:
     path: ''
     type: events
   values:
-    title: 
+    title:
     layout: events
     permalink: "/events/:title/"
-    Image: 
+    Image:
 permalink: pretty

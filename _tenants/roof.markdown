@@ -1,6 +1,7 @@
 ---
 title: Roof
-suite: 100
+suites:
+- 100
 floor: 11
 ---
 

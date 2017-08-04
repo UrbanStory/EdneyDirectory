@@ -1,6 +1,7 @@
 ---
 title: Dennemyer
-suite: 801
+suites:
+- 801
 floor: 8
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: CO.Lab
-suite: 101
+suites:
+- 101
 floor: 1
 ---
 

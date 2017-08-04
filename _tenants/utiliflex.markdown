@@ -1,6 +1,7 @@
 ---
 title: Utiliflex
-suite: 907
+suites:
+- 907
 floor: 9
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Tonya Craft Legal
-suite: 401
+suites:
+- 401
 floor: 4
 ---
 

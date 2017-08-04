@@ -1,6 +1,7 @@
 ---
 title: Colortest
-suite: 806
+suites:
+- 806
 floor: 8
 ---
 

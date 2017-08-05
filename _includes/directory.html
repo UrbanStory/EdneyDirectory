@@ -13,7 +13,7 @@
         {% else %} {% assign hasMultipleTenants = false %}
         {% endif %}
           <div class="floorgroup floor-{{floorGroup.name}} has-multiple-tenants-{{hasMultipleTenants}}">
-            {% assign sortedTenants = floorGroup.items | sort:"suites.first" %}
+            {% assign sortedTenants = floorGroup.items | sort:"suites" %}
             {% for tenant in sortedTenants %}
               <p class="company">{{tenant.title}}</p>
               <p class="suite">{{tenant.suites | join:", " }}</p>

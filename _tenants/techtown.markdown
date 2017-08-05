@@ -1,6 +1,7 @@
 ---
 title: TechTown
-suite: 200
+suites:
+- 200
 floor: 2
 ---
 

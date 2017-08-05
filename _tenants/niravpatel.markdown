@@ -1,6 +1,7 @@
 ---
 title: Nirav Patel
-suite: 903
+suites:
+- 903
 floor: 9
 ---
 

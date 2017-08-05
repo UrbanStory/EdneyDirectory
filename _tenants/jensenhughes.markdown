@@ -1,6 +1,7 @@
 ---
 title: Jensen Hughes
-suite: 904
+suites:
+- 904
 floor: 9
 ---
 

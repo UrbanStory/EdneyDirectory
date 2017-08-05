@@ -1,6 +1,7 @@
 ---
 title: Roman Healthcare
-suite: 906
+suites:
+- 906
 floor: 9
 ---
 

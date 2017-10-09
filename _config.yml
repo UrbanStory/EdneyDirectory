@@ -31,7 +31,8 @@ defaults:
     type: tenants
   values:
     title: 
-    suites: 
+    suites:
+      -
     floor: 
 - scope:
     path: ''

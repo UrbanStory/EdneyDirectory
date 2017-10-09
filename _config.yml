@@ -32,7 +32,7 @@ defaults:
   values:
     title: 
     suites:
-      -
+    - 
     floor: 
 - scope:
     path: ''

@@ -48,7 +48,6 @@ body{
   background-image: url('/assets/img/e-logo-header.png');
   background-position: top left;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .grid {

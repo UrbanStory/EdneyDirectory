@@ -48,7 +48,6 @@ body{
   background-image: url('{{ "/assets/img/e-logo-header.png" | prepend: site.baseurl }}');
   background-position: top left;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 .grid {
@@ -142,7 +141,6 @@ main .floorgroup p.floor {
   padding-right: 20px;
 }
 
-main .floorgroup.floor-3 p.company,
 main .floorgroup.floor-10 p.company  {
   color: #E4DCCB;
 }

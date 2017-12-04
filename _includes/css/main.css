@@ -145,7 +145,6 @@ main .floorgroup.floor-10 p.company  {
   color: #E4DCCB;
 }
 
-main .floorgroup.floor-3 p:nth-child(2),
 main .floorgroup.floor-10 p:nth-child(2),
 main .floorgroup.floor-11 p:nth-child(2) {
   color: #2F2359;

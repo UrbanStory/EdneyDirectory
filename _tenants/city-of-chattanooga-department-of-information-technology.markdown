@@ -1,5 +1,5 @@
 ---
-title: City of Chattanooga Department of IT
+title: City of Chattanooga IT
 date: 2017-11-30 21:22:00 Z
 suites:
 - 300

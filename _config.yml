@@ -1,0 +1,45 @@
+---
+title: Edney Directory
+timezone: UTC
+collections:
+  events:
+    title: Events
+    output: true
+  uploads:
+    title: Page
+    output: false
+  posts:
+    title: Posts
+    output: true
+  tenants:
+    title: Tenants
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: tenants
+  values:
+    title: 
+    suites:
+    - 
+    floor: 
+- scope:
+    path: ''
+    type: events
+  values:
+    title: 
+    layout: events
+    permalink: "/events/:title/"
+    Image: 
+permalink: pretty

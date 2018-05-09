@@ -1,0 +1,5 @@
+{% if event.Image != nil %}
+  <div class="poster">
+    <img src="{{ "" | prepend: site.baseurl }}{{ event.Image }}">
+  </div>
+{% endif %}

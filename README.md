@@ -27,6 +27,6 @@ If the system resets or gets shut down you will need to do the following:
 - make sure the Mirror screens box is selected
 - the screen should rotate accordingly
 - now close out of everything and bring up the directory in the browser
-- http://edney-directory.siteleaf.net
+- http://edneydirectory.siteleaf.net
 - check the status of the 2 plugins mentioned above, set accordingly, and you’re ready to go!
 

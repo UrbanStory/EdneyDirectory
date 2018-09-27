@@ -2,9 +2,6 @@
 title: Edney Directory
 timezone: UTC
 collections:
-  events:
-    title: Events
-    output: true
   uploads:
     title: Page
     output: false

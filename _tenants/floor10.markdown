@@ -1,5 +1,5 @@
 ---
-title: Floor 10  Available Space
+title: Floor 10  Opportunities Available
 suites:
 - 100
 floor: 10

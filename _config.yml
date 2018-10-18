@@ -1,6 +1,6 @@
 ---
-title: Edney Directory
-timezone: UTC
+title: Edney Directory Listing
+timezone: America/New_York
 collections:
   uploads:
     title: Page
